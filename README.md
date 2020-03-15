@@ -69,6 +69,9 @@ Linux amd64 Tags
 | 3.0-slim, 3.0-java8-slim | [Dockerfile]()  | Debian 10    |
 | 3.0-appservice, 3.0-appservice-quickstart, 3.0-java8-appservice, 3.0-java8-appservice-quickstart | [Dockerfile]() | Debian 10 |
 | 3.0-java8-build          | [Dockerfile]()  | Debian 9     |
+| `3.0-java11`           | [Dockerfile]()  | Debian 10    |
+| 3.0-java11-slim | [Dockerfile]()  | Debian 10    |
+| 3.0-java11-appservice, 3.0-java11-appservice-quickstart | [Dockerfile]() | Debian 10 |
 
 ### Python
 
