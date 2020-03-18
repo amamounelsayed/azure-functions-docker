@@ -91,7 +91,7 @@ steps:
       docker push $TARGET_REGISTRY/java:$(TargetVersion)-java8-slim
       docker push $TARGET_REGISTRY/java:$(TargetVersion)-java8-appservice
       docker push $TARGET_REGISTRY/java:$(TargetVersion)-java8-appservice-quickstart
-        
+
       docker push $TARGET_REGISTRY/java:$(TargetVersion)-java11
       docker push $TARGET_REGISTRY/java:$(TargetVersion)-java11-slim
       docker push $TARGET_REGISTRY/java:$(TargetVersion)-java11-appservice

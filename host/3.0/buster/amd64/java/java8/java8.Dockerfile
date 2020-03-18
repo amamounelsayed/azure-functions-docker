@@ -34,6 +34,7 @@ COPY --from=runtime-image [ "/workers/java", "/azure-functions-host/workers/java
 COPY --from=jdk [ "/usr/local/openjdk-8", "/usr/local/openjdk-8" ]
 
 ENV JAVA_HOME /usr/local/openjdk-8
+ENV FUNCTIONS_WORKER_RUNTIME_VERSION=1.8
 
 COPY --from=runtime-image [ "/FuncExtensionBundles", "/FuncExtensionBundles" ]
 
